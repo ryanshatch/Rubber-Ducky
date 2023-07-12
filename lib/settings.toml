@@ -1,0 +1,98 @@
+REM Title: Hacker Typer
+REM Author:	UberGuidoZ
+REM Description: Opens a harmless website and types like a hacker
+REM Target:	Windows but easily modified to work on any OS with a browser
+REM Version:	1.0
+REM Category:	Prank
+REM Source: https://github.com/UberGuidoZ/OMG-Payloads
+REM
+DELAY 1500
+GUI r
+DELAY 1000
+STRING http://geektyper.com/plain
+DELAY 50
+ENTER
+DELAY 2000
+F11
+DELAY 500
+STRING function drawCircle(ctx, x, y, r, c) {ctx.fillStyle = c;ctx.beginPath();ctx.arc(x, y, r, 0, 2 * Math.PI);ctx.fill();}
+DELAY 500
+ENTER
+DELAY 500
+STRING function drawBitcoinSymbol(ctx, x, y, r, c1, c2) {
+DELAY 50
+ENTER
+STRING drawCircle(ctx, x, y, r, c1);
+DELAY 50
+ENTER
+STRING drawCircle(ctx, x, y, r * 0.85, c2);
+DELAY 50
+ENTER
+STRING drawCircle(ctx, x, y, r * 0.6, c1);
+DELAY 50
+ENTER
+STRING drawCircle(ctx, x, y, r * 0.45, c2);
+DELAY 50
+ENTER
+STRING drawCircle(ctx, x, y, r * 0.3, c1);
+DELAY 50
+ENTER
+STRING }
+DELAY 500
+ENTER
+DELAY 500
+STRING var canvas = document.createElement('canvas');
+DELAY 50
+ENTER
+STRING canvas.width = window.innerWidth;
+DELAY 50
+ENTER
+STRING canvas.height = window.innerHeight;
+DELAY 50
+ENTER
+STRING document.body.appendChild(canvas);
+DELAY 50
+ENTER
+STRING var ctx = canvas.getContext('2d');
+DELAY 50
+ENTER
+STRING drawBitcoinSymbol(ctx, canvas.width / 2, canvas.height / 2, Math.min(canvas.width, canvas.height) * 0.3, '#F7931A', '#FFFFFF');
+DELAY 500
+ENTER
+DELAY 1000
+F11
+DELAY 500
+STRING qwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiop
+DELAY 500
+STRING qwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiop
+DELAY 500
+STRING qwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiop
+DELAY 1500
+RIGHTARROW
+DELAY 1500
+LEFTARROW
+DELAY 1500
+STRING 3
+DELAY 1500
+SHIFT
+DELAY 1500
+STRING 1
+DELAY 1500
+STRING 6
+DELAY 1500
+STRING 4
+DELAY 1500
+STRING 2
+DELAY 1500
+STRING 5
+DELAY 1500
+STRING 7
+DELAY 1500
+STRING 9
+DELAY 1500
+STRING 8
+DELAY 5000
+BACKSPACE
+DELAY 500
+STRING qwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiop
+ALT F4
